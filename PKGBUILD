@@ -1,7 +1,7 @@
 # Maintainer: jmcb <joelsgp@protonmail.com>
 
 pkgname='sdcardformatter'
-pkgver='1.0.2'
+pkgver='1.0.3'
 pkgrel=1
 pkgdesc="SD Memory Card Formatter for Linux"
 arch=('x86_64' 'aarch64')
@@ -15,8 +15,8 @@ provides=()
 conflicts=()
 source_x86_64=("https://sdcard.org/downloads/formatter/eula_linux/SDCardFormatterv${pkgver}_Linux_x86_64.tgz")
 source_aarch64=("https://sdcard.org/downloads/formatter/eula_linux/SDCardFormatterv${pkgver}_Linux_ARM64.tgz")
-sha256sums_x86_64=('3d961085954abeb764265184a92c1114aa4cef9cf12ca3c3337b6b63e0dbe0fb')
-sha256sums_aarch64=('8695a0f441129845136afee01d94d6dbccbe87ba7c904f045f2af0613f9a1978')
+sha256sums_x86_64=('4deb49e3e4fed03839628bbdb40169ffed76fe677c380ca6f4262e0f1ce5d6b0')
+sha256sums_aarch64=('7c3375d79ef572afdf9dd2e4c7cc1762f040abb389154a03f8187d1edad5a4d7')
 
 case ${CARCH} in
     "x86_64")
